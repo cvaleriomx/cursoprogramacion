@@ -1,0 +1,81 @@
+PROYECTOS FINALES
+1)	Análisis de Datos: Utilizar Python para recolectar, procesar y analizar datos. Esto puede incluir el uso de librerías como Pandas y Matplotlib para analizar datos de fuentes reales, como datos económicos, ambientales, o de redes sociales, y presentar los resultados a través de gráficos y visualizaciones.
+
+2)	Automatización de Tareas: Crear scripts que automatizan tareas mundanas como la organización de archivos, envío de correos electrónicos o la automatización de procesos en sistemas operativos. Este tipo de proyectos puede incluir el uso de librerías como PyAutoGUI o Selenium.
+
+3)	Desarrollo Web: Utilizar frameworks como Flask o Django para desarrollar aplicaciones web. Los estudiantes pueden crear desde blogs simples hasta aplicaciones web más complejas con autenticación de usuarios y bases de datos.
+
+4)	Juegos Sencillos: Programar juegos básicos como Tic-Tac-Toe, Pong, o una versión simplificada de Snake. Esto ayuda a los estudiantes a entender conceptos como la lógica de programación, el manejo de eventos y la interfaz gráfica de usuario usando librerías como Pygame.
+
+5)	Machine Learning: Implementar modelos simples de aprendizaje automático usando scikit-learn. Proyectos como la predicción de precios de viviendas, clasificación de imágenes o análisis de sentimientos de texto pueden ser accesibles y desafiantes para los estudiantes.
+
+6)	Creación de un paquete de Python: Desarrollar y publicar un paquete propio en Python que pueda ser instalado y utilizado por otros desarrolladores. Esto puede ser una librería de utilidades, un conjunto de funciones para manejar tipos específicos de datos, o herramientas de análisis.
+
+7)	Aplicaciones de Consola: Desarrollar aplicaciones que se ejecuten en la consola y puedan realizar tareas útiles como convertir formatos de archivo, procesar imágenes, o interactuar con APIs web.
+
+8)	Bots: Desarrollar un bot, por ejemplo, para redes sociales o para automatizar respuestas en plataformas de mensajería. Esto podría incluir integraciones con APIs como las de Twitter, Slack, o Discord.
+
+
+
+Ejemplos.-----------------------------------------------------------------------------------
+1.	Análisis de Datos:
+•	Análisis financiero: Desarrollar un script que extraiga datos de precios de acciones en tiempo real y realice un análisis de tendencias y volatilidad.
+•	Estudio del cambio climático: Utilizar datos meteorológicos históricos para analizar las tendencias del cambio climático en diferentes regiones.
+2.	Automatización de Tareas:
+•	Automatización de informes: Crear un script que genere automáticamente informes PDF a partir de datos en hojas de cálculo.
+•	Organizador de archivos: Desarrollar un programa que organice automáticamente los archivos en un directorio según el tipo y la fecha de creación.
+•	Automatización de backup: Script que realice copias de seguridad de archivos importantes a un servidor remoto o servicio en la nube en intervalos regulares.
+3.	Desarrollo Web:
+•	Blog personal: Crear un blog con Flask donde los usuarios puedan publicar y editar artículos.
+•	Sistema de reservas: Desarrollar una aplicación para reservar citas o eventos con gestión de usuarios y calendarios.
+•	Tienda en línea: Implementar una pequeña tienda en línea con Django que incluya carrito de compras y gestión de pedidos.
+4.	Juegos Sencillos:
+•	Tic-Tac-Toe: Juego de tres en raya que permite a dos jugadores jugar desde la consola.
+•	Pong: Implementar el clásico juego de Pong con una interfaz gráfica simple.
+•	Laberinto: Crear un juego donde el usuario debe encontrar la salida de un laberinto generado aleatoriamente.
+5.	Machine Learning:
+•	Clasificación de flores Iris: Utilizar el conjunto de datos Iris para entrenar un modelo que clasifique las especies de flores.
+•	Reconocimiento de dígitos escritos a mano: Implementar un sistema que identifique dígitos manuscritos usando el conjunto de datos MNIST.
+•	Predicción de precios de vivienda: Desarrollar un modelo que estime el precio de las viviendas basándose en características como ubicación, tamaño y número de habitaciones.
+6.	Creación de un paquete de Python:
+•	Paquete de manipulación de imágenes: Desarrollar un paquete que ofrezca funcionalidades para editar y transformar imágenes.
+•	Herramientas de análisis de texto: Crear un paquete que facilite operaciones comunes en el procesamiento de texto, como contar palabras, generar n-gramas, y detectar stopwords.
+•	Utilidades matemáticas: Paquete que incluya funciones avanzadas de cálculo y estadística no disponibles en los módulos estándar.
+7.	Aplicaciones de Consola:
+•	Conversor de unidades: Un programa que convierta diversas unidades de medida (como temperatura, longitud y masa).
+•	Calculadora de impuestos: Una aplicación que calcule los impuestos a pagar basándose en diferentes tramos y reglas fiscales.
+•	Cliente de correo electrónico: Implementar una aplicación de consola para enviar y recibir correos electrónicos usando el protocolo SMTP.
+8.	Bots:
+•	Bot de Twitter: Desarrollar un bot que automáticamente publique tweets o responda a menciones con información específica.
+•	Bot de chat para atención al cliente: Crear un bot que responda preguntas frecuentes de clientes en una plataforma como Slack o Discord.
+•	Bot de seguimiento de precios: Un bot que monitoree y notifique cambios en los precios de productos en tiendas en línea.
+
+
+
+Librerías-------------------------------------------------------------------------------------
+1.	Análisis de Datos:
+•	Análisis financiero: Librerías como pandas para manejar datos, matplotlib o seaborn para visualización, y numpy para cálculos numéricos.
+•	Estudio del cambio climático: pandas para procesamiento de datos, matplotlib para gráficos y scipy para análisis estadístico.
+•	Análisis de redes sociales: tweepy para interactuar con la API de Twitter, pandas para manejo de datos y matplotlib o plotly para visualizaciones.
+2.	Automatización de Tareas:
+•	Automatización de informes: pandas para manipulación de datos y reportlab o weasyprint para generar archivos PDF.
+•	Organizador de archivos: os y shutil para manipulación de archivos y directorios.
+•	Automatización de backup: paramiko para conexiones SSH y transferencia de archivos, boto3 para interactuar con servicios AWS como S3.
+3.	Desarrollo Web:
+•	Blog personal: Flask como framework web y SQLAlchemy para ORM.
+•	Sistema de reservas: Django para el framework completo, Django-ORM para base de datos y django-crispy-forms para formularios mejorados.
+•	Tienda en línea: Django para el framework, Stripe para procesamiento de pagos y Pillow para manejo de imágenes.
+4.	Juegos Sencillos:
+•	Tic-Tac-Toe, Pong, Laberinto: pygame es comúnmente usado para la creación de juegos 2D que requieren una interfaz gráfica.
+5.	Machine Learning:
+•	Clasificación de flores Iris, Reconocimiento de dígitos escritos a mano, Predicción de precios de vivienda: scikit-learn para algoritmos de aprendizaje automático, pandas para manejo de datos y matplotlib para visualización de los resultados.
+6.	Creación de un paquete de Python:
+•	Paquete de manipulación de imágenes: Pillow para manipulación básica de imágenes.
+•	Herramientas de análisis de texto: nltk para procesamiento de lenguaje natural.
+•	Utilidades matemáticas: numpy para cálculos numéricos y scipy para operaciones matemáticas y estadísticas más complejas.
+7.	Aplicaciones de Consola:
+•	Conversor de unidades, Calculadora de impuestos, Cliente de correo electrónico: click o argparse para crear interfaces de línea de comando, smtplib para el cliente de correo electrónico.
+8.	Bots:
+•	Bot de Twitter: tweepy para interactuar con la API de Twitter.
+•	Bot de chat para atención al cliente: discord.py para bots en Discord o slackclient para bots en Slack.
+•	Bot de seguimiento de precios: requests para hacer solicitudes web y BeautifulSoup o lxml para el scraping de páginas web.
